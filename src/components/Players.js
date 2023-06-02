@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Players } from '../shared/ListOfPlayers';
+import { useState } from 'react';
 export default function players() {
+    const [player, setPlayer] = useState([])
     return (
         <div className='container' >
             {
